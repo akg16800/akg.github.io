@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+    div.header{     
+     text-align: center;
+     padding:20px;
+     }
+     img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     li.li{
+            float:right;
+            color: rgba(116, 3, 100, 0.952);
+        }
+    p.ja{
+        left:75px;
+    }
+    
+     
+    </style>
+</head>
+<body >
+    <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li class=li><a href="https://www.instagram.com/abhay_akg/" class="fa fa-instagram" target="_blank"> Instagram</a></li>
+    <li class=li><a href="https://www.facebook.com/profile.php?id=100006440455228" class="fa fa-facebook" target="_blank"> Facebook</a></li>
+        </ul>
+    <div class="header" style="background: rgba(4, 19, 151, 0.3);">
+        <p style="font-size: 35px;font-family:impact;">
+            This page contail all the information about me....!!
+        </p>
+
+    </div>
+    <div class="nav">
+        <a href="#basic">Basic Bio</a>
+        <a href="#grad">Graduaton</a>
+        <a href="#inter">Intermediate</a>
+        <a href="#school">Schooling</a>
+      </div><br><br>
+      <div id="basic">
+          <h1 class="h">Basic information</h1>
+          <p class="f">
+              I am Business Enthusiast Guy <br>
+              I am <b>Abhay Kumar Gond</b> <br>
+              I am from Mumbai, I was born in month of Festival(August) i.e 16/08/2000 <br>
+              I am interested in travelling to different different places and enjoying and exploring. <br>
+          </p>
+      </div> <br><br>
+      <div id="grad">
+        <h1 class="h">Graduation Information</h1>
+          <p class="f">
+              I am an undergrauduate student, in present I am studying in 2nd year <br>
+              After qualifying JEE, I am doing my Btech from VNIT Nagpur in Metallurgy Engineering <br>
+              I had joined this prestigous institue on August-19 and hopefully I will complete my Btech by 2023 <br>
+              I am enjoying my college days with my friends and spending quality time in hostel <br>
+              We also enjoying in participating in many college events which was new for us...!! <br>
+          </p>
+          <img id="myImage" src="download.jpg" alt="vnit" width="450px" height="300px">
+          <p class="ja"><center>
+            <button type="button" onclick="grad(0)">Next</button>
+            <button type="button" onclick="grad(1)">Previous</button></center>
+            </p>
+
+      </div><br><br>
+      <div id="inter">
+        <h1 class="h">Intermediate information</h1>
+          <p class="f">
+              Basically I am completed my Intermediate(12th) from Central Railway School,Kalyan <br>
+              It is situated in Thane District (Mumbai) <br>
+              This 2 year is quite boring and somewhere interesting if look in back <br>
+              But I feel very regret, because I dosent enjoy that two last year of my favourite school. <br>
+              But.....its okkk <br>
+          </p>
+          <img id="myImage1" src="crskyn.jpg" alt="vnit" width="450px" height="500px">
+          <p class="ja"><center>
+            <button type="button" onclick="inter(1)">Next</button>
+            <button type="button" onclick="inter(0)">Previous</button></center>
+            </p>
+
+      </div><br><br>
+      <div id="school">
+        <h1 class="h">Schooling information</h1>
+          <p class="f">
+              I done my all schooling from this......... my favourite school <br>
+              Those are the wonderful days of my life with no responsibilities because of childhood.... <br>
+              At that time we have not tension of future thats more relaxable and enjoying days ..... <br>
+              Every moment of each standard were most interesting and enjoyable.......... <br>
+              There is no word to mention that happiness and enjoyable things..... <br>
+              Overall, its past ..........and past never return <br>
+          </p>
+          <img id="myImage2" src="crs.jpg" alt="vnit" width="600px" height="300px">
+          <p class="ja"><center>
+            <button type="button" onclick="school(1)">Next</button>
+            <button type="button" onclick="school(0)">Previous</button></center>
+            </p>
+
+      </div><br><br>
+      <script>
+        function grad(sw) {
+          var pic;
+          if (sw == 0) {
+            pic = "meta.jpg"
+          } else {
+            pic = "download.jpg"
+          }
+          document.getElementById('myImage').src = pic;
+        }
+        </script>
+        <script>
+            function inter(sw) {
+              var pic;
+              if (sw == 0) {
+                pic = "crskyn.jpg"
+              } else {
+                pic = "crs1.jpg"
+              }
+              document.getElementById('myImage1').src = pic;
+            }
+        </script>
+        <script>
+            function school(sw) {
+              var pic;
+              if (sw == 0) {
+                pic = "crs.jpg"
+              } else {
+                pic = "apj.jpg"
+              }
+              document.getElementById('myImage2').src = pic;
+            }
+        </script>
+     
+        
+</body>
+</html>

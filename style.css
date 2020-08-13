@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    background-image: url("vitaly-taranov-J6hE2DTWSEw-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0 0px 100px;
+    overflow: hidden;
+    background-color: black;
+    border:3px solid white;
+    border-radius:20px;
+    position:-webkit-sticky;
+    font-weight: bold;
+    font-size: 23px;
+    top:0;
+    left:0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:white;
+    font-size:110%;
+    color:black;
+    text-decoration: underline;
+  }
+ div.a{
+     position: relative;
+     width:30%;
+     left:30px;
+     top:50px;  
+     border:2px solid white;
+     color:rgb(255, 255, 255);
+     text-align: center;
+     font-size:40px;
+     padding:15px;
+    border-radius: 45px;
+    font-family:Times New Roman;
+    background: rgba(2, 3, 83, 0.9);
+  }
+  img{
+     
+      border-radius:50%;
+      border:5px solid white;
+  }
+  div.b{
+    position: absolute;
+    right:0;
+    margin:25px;
+    text-align: center;
+    width:60%;
+    top:50px;  
+    color:rgb(4, 22, 34);
+    
+    font-size:70px;
+    
+    font-family: algerian;
+ }
+ div.c{
+    position: absolute;
+    right:0;
+    top:60%;
+    margin:25px;
+    text-align: center;
+    width:60%;
+    border-radius: 45px;
+    color:white;
+    background: rgba(2, 3, 83, 0.9);
+    font-size:40px;
+    
+    font-family: algerian;
+ }
+ div.nav{
+    overflow: hidden;
+    background-color: black;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+ }
+ div.nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+ .nav a:hover{
+    background-color: #ddd;
+    color: black;
+ }
+ div.basic{
+     padding:25px;
+     left:20px;
+     border:2px solid black;
+     background: rgba(102, 195, 238, 0.3);
+     border-radius: 20px;
+ }
+ div.grad{
+    padding:25px;
+    border:2px solid black;
+    left:20px;
+    background: rgba(102, 195, 238, 0.3);
+    border-radius: 20px;
+}
+div.inter{
+    padding:25px;
+    left:20px;
+    border:2px solid black;
+    background: rgba(102, 195, 238, 0.3);
+    border-radius: 20px;
+}
+div.school{
+    padding:25px;
+    left:20px;
+    border:2px solid black;
+    background: rgba(102, 195, 238, 0.3);
+    border-radius: 20px;
+}
+p.f{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+h1.h{
+    font-family:algerian;
+    font-size: 30px;
+    font-weight: bold;
+    color:blue;
+}
